@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
+    "compile:less": "lessc css/styles.less css/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
