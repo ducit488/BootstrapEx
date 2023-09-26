@@ -20,4 +20,13 @@ $(document).ready(function () {
       $("#carouselButton").children("span").addClass("fa-pause");
     }
   });
+
+  // lap 04
+  $("#reserveBtn").on("click", function () {
+    $("#reserveModal").modal("show");
+  });
+
+  $("#loginBtn").on("click", function () {
+    $("#loginModal").modal("show");
+  });
 });
